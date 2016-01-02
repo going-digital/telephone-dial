@@ -33,42 +33,42 @@ dial.append("rect")
     .attr("y","0mm")
     .attr("width","38mm")
     .attr("height","15.7mm")
-    .attr("fill","#686050");
+    .attr("fill","#82836d");
 
 dial.append("rect")
     .attr("x","0mm")
     .attr("y","15.7mm")
     .attr("width","38mm")
     .attr("height","22.2mm")
-    .attr("fill","#ccbbbb");
+    .attr("fill","#fff");
 
 dial.append("line")
     .attr("x1", "0mm")
     .attr("x2", "38mm")
     .attr("y1", "19.2mm")
     .attr("y2", "19.2mm")
-    .attr("stroke", "#686050");
+    .attr("stroke", "#82836d");
 
 dial.append("line")
     .attr("x1", "0mm")
     .attr("x2", "38mm")
     .attr("y1", "19.2mm")
     .attr("y2", "19.2mm")
-    .attr("stroke", "#686050");
+    .attr("stroke", "#82836d");
 
 dial.append("line")
     .attr("x1", "15.5mm")
     .attr("x2", "15.5mm")
     .attr("y1", "0mm")
     .attr("y2", "16mm")
-    .attr("stroke", "#cbb");
+    .attr("stroke", "#fff");
 
 dial.append("line")
     .attr("x1", "15.5mm")
     .attr("x2", "15.5mm")
     .attr("y1", "15.7mm")
     .attr("y2", "19.2mm")
-    .attr("stroke", "#686050");
+    .attr("stroke", "#82836d");
 
 dial.append("circle")
     .attr("cx", "19mm")
@@ -104,7 +104,7 @@ dial.append("text")
     .style("font-size","3.8mm")
     .style("text-align","right")
     .style("text-anchor","end")
-    .style("fill", "#cbb");
+    .style("fill", "#fff");
 
 dial.append("text")
     .attr("class", "info")
@@ -123,7 +123,7 @@ dial.append("text")
     .text("OPERATOR")
     .style("text-align","center")
     .style("text-anchor","left")
-    .style("fill", "#686050");
+    .style("fill", "#82836d");
 
 dial.append("text")
     .attr("class", "info")
@@ -134,7 +134,7 @@ dial.append("text")
     .style("text-align","center")
     .style("text-anchor","end")
     .style("letter-spacing", "0.3mm")
-    .style("fill", "#686050");
+    .style("fill", "#82836d");
 
 dial.append("text")
     .attr("class", "exch")
