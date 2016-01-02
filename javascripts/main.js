@@ -74,7 +74,7 @@ dial.append("circle")
     .attr("cx", "19mm")
     .attr("cy", "19mm")
     .attr("r", "19mm")
-    .attr("stroke", "#907880")
+    .attr("stroke", "#ccc")
     .attr("stroke-width", "0.1mm")
     .attr("fill", "none");
 
