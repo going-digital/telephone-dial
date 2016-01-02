@@ -1,0 +1,37 @@
+@media all {
+  .info {
+    font-style:italic;
+    font-variant:normal;
+    font-weight:bold;
+    font-size:3mm;
+    font-family:'Roboto Condensed', sans-serif;
+    letter-spacing:0.15mm;
+    fill:#cbb;
+    text-align:left;
+    text-anchor:left;
+  }
+  .exch {
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    font-stretch:condensed;
+    font-size:4.1mm;
+    font-family:'Roboto Condensed', sans-serif;
+    text-align:center;
+    text-anchor:middle;
+    fill:#000;
+  }
+  .num {
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    font-stretch:normal;
+    font-size:5.5mm;
+    font-family:'Special Elite', monospace;
+    text-align:center;
+    letter-spacing:0.5mm;
+    text-anchor:middle;
+    text-anchor:left;
+    fill:#210;
+  }
+}
